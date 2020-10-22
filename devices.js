@@ -475,6 +475,21 @@ const pincodeLock = {
 };
 
 const devices = [
+    
+    // LEXMAN by Leroy Merlin
+    {
+        zigbeeModel: ['Lexman LED A60 RGBTW BULB'],
+        model: 'LK-01',
+        vendor: 'LEXMAN',
+        description: 'Zigbee GGBTW A60 BULB 9CZA-A806ST-Q1A 220-240V E27 8.5W 77mA 2700-6500K',
+        extend: ledvance.light_onoff_brightness_colortemp_colorxy,
+        //extend: generic.light_onoff_brightness_colortemp,
+        ota: ota.ledvance,
+    },
+    
+    
+    
+    
     // Xiaomi
     {
         zigbeeModel: ['lumi.light.aqcn02'],
